@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  text-align: center;
+  background: #fff8f5;
+}
+
+#welcome {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #f5d7cf;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#welcome button {
+  padding: 12px 25px;
+  background: #c76d5e;
+  color: white;
+  border: none;
+  font-size: 18px;
+}
+
+#mainContent {
+  display: none;
+}
+
+.hero {
+  padding: 80px 20px;
+  background: #f5e6e0;
+}
+
+section {
+  padding: 50px 20px;
+}
+
+.event {
+  background: white;
+  margin: 15px auto;
+  padding: 15px;
+  width: 80%;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.gallery img {
+  width: 30%;
+  margin: 5px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #c76d5e;
+  color: white;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+footer {
+  background: #f5e6e0;
+  padding: 20px;
+}
